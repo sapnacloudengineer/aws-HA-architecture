@@ -22,7 +22,7 @@ This project demonstrates a highly available and scalable architecture on AWS us
 
 ## Architecture Diagram
 
-![Architecture Diagram]aws-ha-architecture.png)
+(aws-ha-architecture.png)
 
 ---
 
@@ -115,19 +115,19 @@ stress --cpu 4 --timeout 300
 ## Screenshots
 
 * Vpc network Configuration
-   screenshot/resource map -vpc.png
+   (screenshot/vpc.png)
   
 * Load Balancer Setup
-   screenshot/ALB-resourse-map.png
+   (screenshot/ALB.png)
   
 * Auto Scaling Group Activity
-   screenshot/ASG-activity.png
+   (screenshot/ASG-activity.png)
   
 * Instance Health-Check (target group)  
-   screenshot/instance-health-check.png 
+   (screenshot/instance-health-check.png) 
   
 * CloudWatch Metrics
-   screenshot/monitoring.png
+   (screenshot/monitoring.png)
 ---
 
 ## Key Learnings
