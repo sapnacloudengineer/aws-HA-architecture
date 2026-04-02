@@ -22,7 +22,7 @@ This project demonstrates a highly available and scalable architecture on AWS us
 
 ## Architecture Diagram
 
-![Architecture Diagram](diagram.png)
+![Architecture Diagram]aws-ha-architecture.png)
 
 ---
 
@@ -51,7 +51,7 @@ This project demonstrates a highly available and scalable architecture on AWS us
 * Created a Launch Template with:
 
   * AMI: Ubuntu
-  * Instance Type: `t2.micro`
+  * Instance Type: `t3.micro`
   * User Data Script:
 
 ```bash
@@ -114,13 +114,20 @@ stress --cpu 4 --timeout 300
 
 ## Screenshots
 
-* VPC Configuration
-* Subnet Configuration
+* Vpc network Configuration
+   screenshot/resource map -vpc.png
+  
 * Load Balancer Setup
-* Target Group Health Status
+   screenshot/ALB-resourse-map.png
+  
 * Auto Scaling Group Activity
+   screenshot/ASG-activity.png
+  
+* Instance Health-Check (target group)  
+   screenshot/instance-health-check.png 
+  
 * CloudWatch Metrics
-
+   screenshot/monitoring.png
 ---
 
 ## Key Learnings
