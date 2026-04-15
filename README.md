@@ -22,7 +22,7 @@ This project demonstrates a highly available and scalable architecture on AWS us
 
 ## Architecture Diagram
 
-![DIAGRAM](aws-ha-architecture.png)
+![DIAGRAM](screenshot/aws-ha-architecture.png)
 
 ---
 
